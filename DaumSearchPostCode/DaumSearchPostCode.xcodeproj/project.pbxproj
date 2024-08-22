@@ -60,17 +60,33 @@
 		D03036262C6ADB1100ADFC79 /* DaumSearchPostCode */ = {
 			isa = PBXGroup;
 			children = (
+				D03D6F342C771475006CC40E /* SwiftUI */,
+				D03D6F332C77145A006CC40E /* UIKit */,
 				D03036272C6ADB1100ADFC79 /* AppDelegate.swift */,
 				D03036292C6ADB1100ADFC79 /* SceneDelegate.swift */,
-				D030362B2C6ADB1100ADFC79 /* KakaoPostCodeVC.swift */,
 				D03036302C6ADB1300ADFC79 /* Assets.xcassets */,
 				D03036322C6ADB1300ADFC79 /* LaunchScreen.storyboard */,
 				D03036352C6ADB1300ADFC79 /* Info.plist */,
-				D030363B2C6AECDF00ADFC79 /* ViewController.swift */,
-				D030363D2C6B2A8100ADFC79 /* KakaoPostCodeView.swift */,
-				D030363F2C6B32B300ADFC79 /* ContentView.swift */,
 			);
 			path = DaumSearchPostCode;
+			sourceTree = "<group>";
+		};
+		D03D6F332C77145A006CC40E /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				D030363B2C6AECDF00ADFC79 /* ViewController.swift */,
+				D030362B2C6ADB1100ADFC79 /* KakaoPostCodeVC.swift */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		D03D6F342C771475006CC40E /* SwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				D030363F2C6B32B300ADFC79 /* ContentView.swift */,
+				D030363D2C6B2A8100ADFC79 /* KakaoPostCodeView.swift */,
+			);
+			path = SwiftUI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
